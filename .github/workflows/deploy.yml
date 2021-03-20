@@ -1,0 +1,44 @@
+name: Deploy updated website
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout gbdev/gbadev.net
+      uses: actions/checkout@v2
+      with:
+        repository: gbdev/gbadev.net
+        path: folder/repo
+    - name: Checkout gbdev/gbadev.net master
+      uses: actions/checkout@v2
+      with:
+        repository: gbdev/gbadev.net
+        ref: master
+        path: folder/build
+
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '12'
+
+    - working-directory: folder/
+      run: |
+        cd repo
+        npm install -g yarn
+        yarn install
+        yarn docs:build
+        mkdir dist
+        cp list/.vuepress/dist/* dist/ -r
+        cp CNAME dist/
+        cd ..
+        cp -a repo/dist/. build/
+        cd build
+        mkdir -m 700 ~/.ssh
+        echo "${{ secrets.SSH_KEY_SECRET }}" > ~/.ssh/id_ed25519
+        chmod 0600 ~/.ssh/id_ed25519
+        git config --local user.name "GitHub Action"
+        git config --global user.email "community@gbdev.io"
+        git add .
+        git commit -m "Update build" && git push || :

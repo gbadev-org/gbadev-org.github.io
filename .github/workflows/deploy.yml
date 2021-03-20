@@ -30,7 +30,7 @@ jobs:
         yarn install
         yarn docs:build
         mkdir dist
-        cp list/.vuepress/dist/* dist/ -r
+        cp docs/.vuepress/dist/* dist/ -r
         cp CNAME dist/
         cd ..
         cp -a repo/dist/. build/

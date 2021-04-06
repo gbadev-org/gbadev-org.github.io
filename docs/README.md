@@ -1,4 +1,4 @@
-# Resources
+# gbadev resources
 
 A curated list of development resources for Game Boy Advance.
 
@@ -6,22 +6,20 @@ Contribute adding resources or providing feedback through Pull Requests, Issues 
 
 ---
 
-Links marked with *WIP* are Work In Progress and still in development - don't expect complete resources.
-
-# Introduction
+## Introduction
 
 - [Technical introduction to the GBA](https://copetti.org/projects/consoles/game-boy-advance)
 
 ## Community
 
-- [#gba on gbdev Discord Server](https://discord.gg/2WS7bpJ) - Perhaps the only truely active GBA community today.
-- [GBADEV](https://gbadev.org) - Tons and tons of info on GBA development: homebrew, tools, documentation.. Clearly laid out.
-- [GBATEMP](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but now the console is relegated to the backbenches.
+- [GBADev Discord Server](https://discord.io/gbadev) - This is where everyone hangs out nowadays. Come say hi!
+- [GBADev](https://gbadev.org) - The longstanding homepage of the scene. Regularly updated with the lastest news and releases.
+- [GBAtemp](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but now the console is relegated to the backbenches.
 
 # Documentation
 
-- [GBATEK](https://problemkaputt.de/gbatek.htm) - Technical Info
-- [CowBite Virtual Hardware Specifications](https://www.cs.rit.edu/~tjh8300/CowBite/CowBiteSpec.htm) - Incomplete GBA hardware documentation
+- [GBATEK](https://problemkaputt.de/gbatek.htm) - Programming specs for the GBA and NDS hardware
+- [CowBite Virtual Hardware Specifications](https://www.cs.rit.edu/~tjh8300/CowBite/CowBiteSpec.htm) - Older GBA hardware documentation
 - [The Audio Advance](http://belogic.com/gba/) - Audio hardware documentation and basic test ROMs
 
 ## Tutorials
@@ -53,7 +51,8 @@ Links marked with *WIP* are Work In Progress and still in development - don't ex
 
 ## Libraries
 
-- [gba++](https://github.com/felixjones/gbaplusplus) - WIP modern C++ header-only library for GBA.
+- [agbabi](https://github.com/felixjones/agbabi) - Drop-in application binary interface library (context switching, division, irq, memcpy, sine).
+- [gba++](https://github.com/felixjones/gba-plusplus) - WIP modern C++ header-only library for GBA.
 - [HeartLib](https://github.com/Sterophonick/HeartLib) - Comprehensive C library inspired by the classic HAMLib.
 - [GBAdv](https://github.com/sverx/GBAdv) - High level utilities on top of libgba.
 - [Maxmod](https://maxmod.devkitpro.org) - Music and sound library (supports .mod, .xm, .s3m, .it)
@@ -67,6 +66,7 @@ Links marked with *WIP* are Work In Progress and still in development - don't ex
 
 - [mGBA](https://mgba.io) - Actively developed GBA emulator. Runs on a bunch of platforms. Text debugger through GDB stub.
 - [No$gba](https://problemkaputt.de/gba.htm) - Venerable GBA emulator. Windows only, but runs well under Wine. Not very actively maintained but still gets updates now and then. Sports graphical debugger.
+- [NanoBoyAdvance](https://github.com/fleroviux/NanoBoyAdvance) - GBA emulator with high accuracy, especially in timing and CPU emulation. Currently lacking a GUI or debugger.
 - [MiSTer FPGA implementation](https://github.com/MiSTer-devel/GBA_MiSTer) - Needs [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki) setup to run.
 
 # Emulator Development

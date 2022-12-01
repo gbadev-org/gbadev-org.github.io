@@ -1,21 +1,16 @@
-module.exports = {
-    lang: 'en-US',
+import { defaultTheme } from '@vuepress/theme-default'
+
+export default {
+  lang: 'en-US',
   title: 'gbadev',
   description: 'Game Boy Advance development resources',
-  plugins:
-    [
-      '@vuepress/plugin-palette',
-      { preset: 'scss' },
-    ],
-  themeConfig: {
-    logo: 'https://vuejs.org/images/logo.png',
-        sidebar: [
-      // SidebarItem
-      {
-        text: 'Resources',
-        link: '/'}],
+  plugins: [
+    '@vuepress/plugin-palette',
+    { preset: 'scss' },
+  ],
+  theme: defaultTheme({
+    logo: 'https://forum.gbadev.net/static/logo.png',
     navbar: [
-      // NavbarItem
       {
         text: 'GitHub',
         link: 'https://github.com/gbdev',
@@ -27,7 +22,11 @@ module.exports = {
       {
         text: 'Discord',
         link: 'https://discord.io/gbadev',
-      },         
+      },
+      {
+        text: 'Forum',
+        link: 'https://forum.gbadev.net',
+      }
     ],
-  },
+  }),
 }

@@ -10,6 +10,10 @@ export default {
   ],
   theme: defaultTheme({
     logo: 'https://forum.gbadev.net/static/logo.png',
+    sidebar: [
+      'README.md',
+      '/gbajam22.md',
+    ],
     navbar: [
       {
         text: 'GitHub',

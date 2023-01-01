@@ -11,7 +11,8 @@ A curated list of development resources for Game Boy Advance.
 
 ## Community
 
-- [GBADev Discord Server](https://discord.io/gbadev) - This is where everyone hangs out nowadays. Come say hi!  
+- [GBAdev Forum](https://forum.gbadev.net) - Our new hub for announcements and long-form discussion. It's a good place to ask questions and share progress on your projects.
+- [GBAdev Discord](https://discord.io/gbadev) - This is where everyone hangs out to chat nowadays. Come say hi!  
   <details>
   <summary><em>Info for IRC users</em></summary>
 
@@ -29,15 +30,17 @@ A curated list of development resources for Game Boy Advance.
   `#gba-music`     - listening, composing and audio programming  
   `#gba-offtopic`  - off-topic chat  
   `#gba-docs`      - community documentation projects (tutorials, technical docs etc.)  
-  `#gba-tools`     - tool discussion (grit, tiled, aseprite, etc.)  
+  `#gbajam`        - hang out with other GBA Jam participants & share your progress  
 
   **Project-specific channels**  
   `#gba-toolchain` - gba-toolchain, agbabi and gba-plusplus development & support  
   `#butano`        - Butano engine development & support  
   `#natu`          - Natu toolkit development & support  
   </details>
-- [GBADev](https://gbadev.org) - The longstanding homepage of the scene. Regularly updated with the lastest news and releases.
-- [GBAtemp](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but now the console is relegated to the backbenches.
+  
+### Other places
+- [GBAdev.org](https://gbadev.org) - The longstanding homepage of the scene. Still updated with news and releases (but the forums have been broken for a while).
+- [GBAtemp](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but nowadays the console is relegated to the backbenches. It's a good place to talk about gaming and hardware though.
 
 # Documentation
 
@@ -48,6 +51,7 @@ A curated list of development resources for Game Boy Advance.
 ## Tutorials
 
 - [Tonc](https://www.coranac.com/tonc/text/toc.htm) - Complete programming tutorial
+- [Compile C++ for GBA in under an hour](https://www.youtube.com/watch?v=EMeie_gSgDU) - Cinemint's video for getting started with C++/Butano
 - [Sound on the Gameboy Advance](https://deku.gbadev.org/program/sound1.html) - How to write your own sound mixer / MOD music player
 
 ## Articles
@@ -78,13 +82,15 @@ A curated list of development resources for Game Boy Advance.
 - [GBA Dlang](https://github.com/redthing1/gba_dlang) - WIP SDK for GBA development using D, using LLVM toolchain. provides fully functional TONC, GBFS, Maxmod.
 - [dusk](https://github.com/redthing1/dusk) - Simple, lightweight, intuitive framework for GBA game development
 - [gbsenpai](https://github.com/asiekierka/gbsenpai) - GB Studio player GBA port with some enhancements.
+- [meson-gba](https://github.com/LunarLambda/meson-gba) - Meson-based GBA toolkit with support for many different libraries and tools.
+- [sdk-seven](https://github.com/LunarLambda/sdk-seven) - (WIP) Modern C libraries, runtimes, and tooling for GBA development.
 
 ## Libraries
 
 - [agbabi](https://github.com/felixjones/agbabi) - Drop-in application binary interface library (context switching, division, irq, memcpy, sine).
 - [gba-plusplus](https://github.com/felixjones/gba-plusplus) - Modern C++ alternative to libgba and libtonc.
 - [HeartLib](https://github.com/Sterophonick/HeartLib) - Comprehensive C library inspired by the classic HAMLib.
-- [libseven](https://github.com/LunarLambda/libseven) - Lightweight, from-scratch replacement for libgba.
+- [libseven](https://github.com/LunarLambda/sdk-seven) - Modern, from-scratch replacement for libgba and libtonc.
 - [GBAdv](https://github.com/sverx/GBAdv) - High level utilities on top of libgba.
 - [Maxmod](https://maxmod.devkitpro.org) - Music and sound library (supports .mod, .xm, .s3m, .it)
 - [Apex Audio System](https://github.com/stuij/apex-audio-system) - Music and sound library (supports .mod only, but _very_ good performance)
@@ -124,6 +130,7 @@ A curated list of development resources for Game Boy Advance.
 
 - [GBA Jam 2021](https://itch.io/jam/gbajam21/entries)
 - [GBA Winter Jam '21](https://itch.io/jam/gba-winter-jam-2021/entries)
+- [GBA Jam 2022](https://itch.io/jam/gbajam22/entries)
 
 # Miscellanea
 

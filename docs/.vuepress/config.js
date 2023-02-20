@@ -22,10 +22,6 @@ export default {
             text: "GBA Winter Jam 2023",
             link: "https://itch.io/jam/gba-winter-jam-2023",
           },
-          {
-            text: "GBA Winter Jam 2023",
-            link: "https://itch.io/jam/gba-winter-jam-2023",
-          },
           "/gbajam22.md",
           {
             text: "GBA Winter Jam 2021",

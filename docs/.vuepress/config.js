@@ -20,7 +20,7 @@ export default {
           // SidebarItem
           {
             text: "GBA Winter Jam 2023",
-            link: "https://itch.io/jam/gba-winter-jam-2023",
+            link: "https://itch.io/jam/gba-winter-jam-23",
           },
           "/gbajam22.md",
           {

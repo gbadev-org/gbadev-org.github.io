@@ -45,6 +45,11 @@ export default {
         link: "https://github.com/gbadev-org",
       },
       {
+        text: "Mastodon",
+        link: "https://fedi.gbdev.io/@gbadev",
+        rel: "me",
+      },
+      {
         text: "OpenCollective",
         link: "https://opencollective.com/gbadev",
       },

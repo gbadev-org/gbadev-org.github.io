@@ -9,7 +9,7 @@ actions:
     link: /resources
     type: primary
   - text: Join us on Discord
-    link: https://discord.io/gbadev
+    link: https://discord.gg/ctGSNxRkg2
     type: secondary
 features:
   - title: Events

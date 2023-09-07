@@ -55,7 +55,7 @@ export default {
       },
       {
         text: "Discord",
-        link: "https://discord.io/gbadev",
+        link: "https://discord.gg/ctGSNxRkg2",
       },
       {
         text: "Forum",

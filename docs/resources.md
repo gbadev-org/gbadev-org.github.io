@@ -1,6 +1,27 @@
-# Resources
+# gbadev resources
 
 A curated list of development resources for Game Boy Advance.
+
+## Table of Content
+
+- [Introduction](#introduction)
+  * [Community](#community)
+- [Documentation](#documentation)
+  * [Tutorials](#tutorials)
+  * [Articles](#articles)
+- [Software Development](#software-development)
+  * [Compilers](#compilers)
+  * [Toolkits](#toolkits)
+  * [Libraries](#libraries)
+  * [Emulators](#emulators)
+- [Emulator Development](#emulator-development)
+  * [Testing](#testing)
+- [Homebrews](#homebrews)
+  * [Jams](#jams)
+- [Miscellanea](#miscellanea)
+  * [Dumping the GBA BIOS](#dumping-the-gba-bios)
+  * [Reverse engineering](#reverse-engineering)
+  * [Historical links](#historical-links)
 
 ---
 
@@ -11,34 +32,33 @@ A curated list of development resources for Game Boy Advance.
 ## Community
 
 - [GBAdev Forum](https://forum.gbadev.net) - Our new hub for announcements and long-form discussion. It's a good place to ask questions and share progress on your projects.
-- [GBAdev Discord](https://discord.io/gbadev) - This is where everyone hangs out to chat nowadays. Come say hi!
+- [GBAdev Discord](https://gbadev.net) - This is where everyone hangs out to chat nowadays. Come say hi!  
   <details>
   <summary><em>Info for IRC users</em></summary>
 
   All rooms are bridged to IRC channels on [EFnet](http://www.efnet.org/?module=servers).
 
   **Main channel**  
-  `#gbadev` - general chat
+  `#gbadev`        - general chat  
 
   **Additional channels**  
-  `#gba-meta` - community feedback/discussion  
-  `#gba-help` - help & support  
-  `#gba-emudev` - emulator development  
-  `#gba-asm` - ARM/Thumb assembly and CPU architecture  
-  `#gba-showcase` - share what you're working on!  
-  `#gba-music` - listening, composing and audio programming  
-  `#gba-offtopic` - off-topic chat  
-  `#gba-docs` - community documentation projects (tutorials, technical docs etc.)  
-  `#gbajam` - hang out with other GBA Jam participants & share your progress
+  `#gba-meta`      - community feedback/discussion  
+  `#gba-help`      - help & support  
+  `#gba-emudev`    - emulator development  
+  `#gba-asm`       - ARM/Thumb assembly and CPU architecture  
+  `#gba-showcase`  - share what you're working on!  
+  `#gba-music`     - listening, composing and audio programming  
+  `#gba-offtopic`  - off-topic chat  
+  `#gba-docs`      - community documentation projects (tutorials, technical docs etc.)  
+  `#gbajam`        - hang out with other GBA Jam participants & share your progress  
 
   **Project-specific channels**  
   `#gba-toolchain` - gba-toolchain, agbabi and gba-plusplus development & support  
-  `#butano` - Butano engine development & support  
-  `#natu` - Natu toolkit development & support
+  `#butano`        - Butano engine development & support  
+  `#natu`          - Natu toolkit development & support  
   </details>
-
+  
 ### Other places
-
 - [GBAdev.org](https://gbadev.org) - The longstanding homepage of the scene. Still updated with news and releases (but the forums have been broken for a while).
 - [GBAtemp](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but nowadays the console is relegated to the backbenches. It's a good place to talk about gaming and hardware though.
 
@@ -60,6 +80,9 @@ A curated list of development resources for Game Boy Advance.
 - [Managing Sprite Cel VRAM on the Game Boy Advance](https://pineight.com/gba/managing-sprite-vram.txt) - Analysis of the VRAM streaming approach for animated sprites
 - [Using Beepbox for GBA Music Composition](https://rentry.org/beepbox-gba-music)
 
+
+
+
 # Software Development
 
 ## Compilers
@@ -67,6 +90,7 @@ A curated list of development resources for Game Boy Advance.
 - [devkitARM](https://devkitpro.org) - C/C++ cross-compiler toolchain, which includes libgba, libtonc, maxmod, and various tools and example projects.
 - [gba-toolchain](https://github.com/felixjones/gba-toolchain) - GNU Arm Embedded Toolchain based alternative to devkitARM.
 - [gvasm](https://github.com/velipso/gvasm) - Stand-alone assembler and disassembler (WIP) designed specifically for GBA homebrew
+- [TinyGo](https://github.com/tinygo-org/tinygo) - An alternative Go compiler for embedded systems, that supports GBA compilation
 
 ## Toolkits
 
@@ -81,6 +105,8 @@ A curated list of development resources for Game Boy Advance.
 - [gbsenpai](https://github.com/asiekierka/gbsenpai) - GB Studio player GBA port with some enhancements.
 - [meson-gba](https://github.com/LunarLambda/meson-gba) - Meson-based GBA toolkit with support for many different libraries and tools.
 - [sdk-seven](https://github.com/LunarLambda/sdk-seven) - (WIP) Modern C libraries, runtimes, and tooling for GBA development.
+- [rath](https://github.com/stuij/rath) - Forth programming environment for the Game Boy Advance
+- [ada-gba-dev](https://github.com/98devin/ada-gba-dev) - A build system, libraries, and tools for producing programs for the Game Boy Advance using the Ada programming language.
 
 ## Libraries
 
@@ -96,12 +122,15 @@ A curated list of development resources for Game Boy Advance.
 - [GBT Player](https://github.com/AntonioND/gbt-player) - Music library that uses the DMG sound channels (close to 0% CPU usage).
 - [posprintf](http://www.danposluns.com/gbadev/posprintf/index.html) - An `sprintf` routine written in Thumb assembler.
 - [GBFS](https://pineight.com/gba/#gbfs) - Practical filesystem
+- [agb](https://github.com/agbrs/agb) - Rust library. It attempts to be a high level abstraction over the internal workings of the Game Boy Advance whilst still being high performance and memory efficient.
+- [gbaLib](https://github.com/MnlPhlp/gbaLib) - Library for programming the GBA with TinyGo
 
 ## Emulators
 
 - [mGBA](https://mgba.io) - Actively developed GBA emulator. Runs on a bunch of platforms. Text debugger through GDB stub.
 - [No$gba](https://problemkaputt.de/gba.htm) - Venerable GBA emulator. Windows only, but runs well under Wine. Not very actively maintained but still gets updates now and then. Sports graphical debugger.
 - [NanoBoyAdvance](https://github.com/nba-emu/NanoBoyAdvance) - GBA emulator with high accuracy, especially in timing and CPU emulation. Does not have debugging features.
+- [SkyEmu](https://github.com/skylersaleh/SkyEmu) - GB/GBA/NDS Emulator with built in debuggers, REST API for scripting, and high accuracy. 
 - [MiSTer FPGA implementation](https://github.com/MiSTer-devel/GBA_MiSTer) - Needs [MiSTer](https://github.com/MiSTer-devel/Main_MiSTer/wiki) setup to run.
 
 # Emulator Development
@@ -120,7 +149,7 @@ A curated list of development resources for Game Boy Advance.
 - [GBADoom](https://github.com/doomhack/GBADoom) - 2019/2020 GBA port of prBoom version of Doom.
 - [BlindJump](https://github.com/evanbowman/blind-jump-portable) - Adventure game, developed in 2020. Implementation of link-cable multiplayer, fully digital audio.
 - [Tigermoth](https://github.com/pmprog/TigermothGBA) - Bullet hell game, developed for the GBAJam 2021
-- [Duster](https://github.com/redthing1/duster) - A sleek strategy board game for the gba
+- [Duster](https://github.com/redthing1/duster) - A sleek strategy board game for the gba 
 - [OpenLara](https://github.com/XProger/OpenLara) - Classic Tomb Raider open-source engine
 
 # Jams
@@ -128,6 +157,7 @@ A curated list of development resources for Game Boy Advance.
 - [GBA Jam 2021](https://itch.io/jam/gbajam21/entries)
 - [GBA Winter Jam '21](https://itch.io/jam/gba-winter-jam-2021/entries)
 - [GBA Jam 2022](https://itch.io/jam/gbajam22/entries)
+- [GBA Winter Jam '23](https://itch.io/jam/gba-winter-jam-23)
 
 # Miscellanea
 
@@ -143,10 +173,9 @@ A curated list of development resources for Game Boy Advance.
 
 ## Reverse engineering
 
-- [Reverse Engineering a GameBoy Advance Game](https://medium.com/@bruno.macabeus/reverse-engineering-a-gameboy-advance-game-introduction-ec185bd8e02) - A series of detailed posts and talks about developing a [level editor](https://github.com/macabeus/klo-gba.js) for _Klonoa: Empire of Dreams_
+- [Reverse Engineering a GameBoy Advance Game](https://medium.com/@bruno.macabeus/reverse-engineering-a-gameboy-advance-game-introduction-ec185bd8e02) - A series of detailed posts and talks about developing a [level editor](https://github.com/macabeus/klo-gba.js) for *Klonoa: Empire of Dreams*
 - [Pokemon Ruby](https://github.com/pret/pokeruby) - C programming language annotation of a Pokemon Ruby disassembly
 
 ## Historical links
-
 - [HEL](http://www.console-dev.de/project/hel-library-for-gba/) - GBA C library built on top of HAM (a classic SDK from back in the day)
 - [Headspin's Guide](http://members.iinet.net.au/~freeaxs/gbacomp/) to Compression, Files Systems, Screen Effects and MOD Players for the Gameboy Advance

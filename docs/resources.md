@@ -1,3 +1,7 @@
+---
+title: Resources
+---
+
 # gbadev resources
 
 A curated list of development resources for Game Boy Advance.

@@ -1,8 +1,12 @@
+---
+title: Getting started
+---
+
 # Getting started in GBAdev
 
 Welcome to GBAdev! If you have decided to try to develop something for the GBA and you're
 completely lost, this guide is for you. Note that this will only mention the most popular and
-recommended options. Check [gbadev resources](https://gbadev.net/resources.html) for a long list
+recommended options. Check [gbadev resources](resources.md) for a long list
 about many relevant toolkits and libraries you can use!
 
 ## Developing your game

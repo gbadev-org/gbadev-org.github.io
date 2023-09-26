@@ -19,7 +19,7 @@ your game you want to create yourself.
 
 This is ideal if you just want to get a game done, without worrying too much about how the hardware
 works. Unfortunately, there is nothing similar to PC engines like Unity, Godot, and the GBA doesn't
-support languages like C#, Python or Jave.
+support languages like C#, Python or Java.
 
 Our recommendation is to use [butano](https://github.com/GValiente/butano), a C++ library that
 simplifies GBA development a lot. It has become quite popular, so you will easily get support for
@@ -42,12 +42,17 @@ libtonc) to understand how GBA development goes.
 
 libgba is another library provided by devkitPro, but it isn't as recommended as using libtonc.
 
-If you don't want to use devkitARM, there are some alternatives. For example, check
-[gba-toolchain](https://github.com/felixjones/gba-toolchain), which also supports libtonc and
-libgba.
-
 If you want to use a completely different library than libtonc or libgba, you can try
 [sdk-seven](https://github.com/LunarLambda/sdk-seven).
+
+If you don't want to use devkitARM, there are some alternatives. For example, check
+[gba-toolchain](https://github.com/felixjones/gba-toolchain), which also supports libtonc and
+libgba, and it uses CMake instead of Makefiles.
+
+[[meson-gba](https://github.com/LunarLambda/meson-gba) is another option. It uses the Meson build
+system, it integrates many of the libraries mentioned before (with bugfixes that devkitPro doesn't
+have), and it supports different compilers and runtime libraries. If you're using sdk-seven, you
+should really consider using this.
 
 Some tutorials out there mention [DevKit Advance](https://devkitadv.sourceforge.net/). This is a
 very outdated toolchain (the last release was in 2003!), don't use it! Use devkitARM instead, which

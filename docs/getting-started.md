@@ -26,6 +26,9 @@ simplifies GBA development a lot. It has become quite popular, so you will easil
 it. You should follow the [getting started](https://gvaliente.github.io/butano/getting_started.html)
 instructions. It comes with a lot of examples of how to use all its features, check them out!
 
+If you prefer something higher level, [BPCore-Engine](https://github.com/evanbowman/BPCore-Engine)
+is an engine that allows you to develop games using Lua as a language.
+
 ### Low level development
 
 If you're comfortable writing to I/O registers and reading low level documentation like
@@ -70,7 +73,7 @@ assembly.
 
 #### Nim
 
-Check [Natu](https://github.com/exelotl/natu). It provides a library to write games and tooling to
+Check [Natu](https://natu.exelo.tl). It provides a library to write games and tooling to
 convert assets.
 
 #### Rust

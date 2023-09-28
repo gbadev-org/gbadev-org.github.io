@@ -43,7 +43,10 @@ the [template](https://github.com/gbadev-org/libtonc-template). Once you have ve
 compile the examples read the tutorial [Tonc](https://gbadev.net/tonc/toc.html) (by the author of
 libtonc) to understand how GBA development goes.
 
-libgba is another library provided by devkitPro, but it isn't as recommended as using libtonc.
+libgba is another library provided by devkitPro, but it isn't as recommended as using libtonc. Both
+of them fulfill the same role, the main difference of the codebase is that libtonc has a text engine
+with lots of features. However, libtonc has way better documentation (libgba doesn't have almost
+any example or documentation).
 
 If you want to use a completely different library than libtonc or libgba, you can try
 [sdk-seven](https://github.com/LunarLambda/sdk-seven).

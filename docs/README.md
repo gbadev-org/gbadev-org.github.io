@@ -5,9 +5,12 @@ heroImage: https://forum.gbadev.net/static/logo.png
 heroHeight: 200
 tagline: GBA development community
 actions:
+  - text: Get started
+    link: /getting-started
+    type: primary
   - text: Check resources
     link: /resources
-    type: primary
+    type: secondary
   - text: Join us on Discord
     link: https://discord.gg/ctGSNxRkg2
     type: secondary

@@ -9,6 +9,7 @@ export default {
     logo: "https://forum.gbadev.net/static/logo.png",
     sidebar: [
       "README.md",
+      "getting-started.md",
       "/resources.md",
       {
         text: "GBA Doc",

@@ -17,7 +17,7 @@ export default {
           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
           g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
         })();
-  `],
+  `]],
   plugins: ["@vuepress/plugin-palette", { preset: "scss" }],
   theme: defaultTheme({
     logo: "https://forum.gbadev.net/static/logo.png",

@@ -95,7 +95,7 @@ in [GBA bootstrap](https://github.com/AntonioND/gba-bootstrap).
 
 ## Tutorials
 
-[Tonc](https://gbadev.net/tonc/toc.html) is currently the best tutorial for GBA development.
+[Tonc](https://gbadev.net/tonc) is currently the best tutorial for GBA development.
 
 ## Emulation
 

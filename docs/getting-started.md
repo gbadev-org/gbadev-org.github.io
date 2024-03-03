@@ -55,7 +55,7 @@ If you don't want to use devkitARM, there are some alternatives. For example, ch
 [gba-toolchain](https://github.com/felixjones/gba-toolchain), which also supports libtonc and
 libgba, and it uses CMake instead of Makefiles.
 
-[[meson-gba](https://github.com/LunarLambda/meson-gba) is another option. It uses the Meson build
+[meson-gba](https://github.com/LunarLambda/meson-gba) is another option. It uses the Meson build
 system, it integrates many of the libraries mentioned before (with bugfixes that devkitPro doesn't
 have), and it supports different compilers and runtime libraries. If you're using sdk-seven, you
 should really consider using this.

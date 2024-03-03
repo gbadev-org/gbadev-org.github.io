@@ -20,7 +20,7 @@ export default {
   `]],
   plugins: ["@vuepress/plugin-palette", { preset: "scss" }],
   theme: defaultTheme({
-    logo: "https://forum.gbadev.net/static/logo.png",
+    logo: "/images/logo.png",
     sidebar: [
       "README.md",
       "getting-started.md",

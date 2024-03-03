@@ -9,8 +9,8 @@ import ParentLayout from "@vuepress/theme-default/layouts/Layout.vue";
         Sponsors <br />
         <a href="https://www.digitalocean.com/" target="_blank"
           ><img
-            class="sponsor_logo"
-            src="../public/images/DO_Powered_by_Badge_blue.svg"
+            class="spons_logo"
+            src="/images/DO_Powered_by_Badge_blue.svg"
         /></a>
         <a
           href="https://incube8games.com/"
@@ -18,8 +18,8 @@ import ParentLayout from "@vuepress/theme-default/layouts/Layout.vue";
           alt="Incube8 Games - Physical Retro Gaming Publisher"
           ><img
             alt="Incube8 Games - Physical Retro Gaming Publisher"
-            class="sponsor_logo incube8"
-            src="../public/images/Incube8-Games-Logo.png"
+            class="spons_logo incube8"
+            src="/images/Incube8-Games-Logo.png"
         /></a>
       </div>
     </template>
@@ -32,7 +32,7 @@ import ParentLayout from "@vuepress/theme-default/layouts/Layout.vue";
   text-align: center;
   padding-top: 20px;
 }
-.sponsor_logo {
+.spons_logo {
   padding-top: 10px;
   padding-left: 15px;
   height: 35px;

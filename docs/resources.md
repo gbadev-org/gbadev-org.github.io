@@ -74,7 +74,7 @@ A curated list of development resources for Game Boy Advance.
 
 ## Tutorials
 
-- [Tonc](https://www.coranac.com/tonc/text/toc.htm) - Complete programming tutorial
+- [Tonc](https://gbadev.net/tonc) - Complete programming tutorial
 - [Compile C++ for GBA in under an hour](https://www.youtube.com/watch?v=EMeie_gSgDU) - Cinemint's video for getting started with C++/Butano
 - [Sound on the Gameboy Advance](https://deku.gbadev.org/program/sound1.html) - How to write your own sound mixer / MOD music player
 

@@ -40,7 +40,7 @@ The most popular option is to use devkitARM and [libtonc](https://github.com/gba
 Follow the instructions in the [getting started guide](https://devkitpro.org/wiki/Getting_Started)
 to install devkitARM and check the [examples](https://github.com/gbadev-org/libtonc-examples) and
 the [template](https://github.com/gbadev-org/libtonc-template). Once you have verified that you can
-compile the examples read the tutorial [Tonc](https://gbadev.net/tonc/toc.html) (by the author of
+compile the examples read the tutorial [Tonc](https://gbadev.net/tonc) (by the author of
 libtonc) to understand how GBA development goes.
 
 libgba is another library provided by devkitPro, but it isn't as recommended as using libtonc. Both

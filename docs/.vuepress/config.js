@@ -30,6 +30,10 @@ export default {
         link: "https://gbadev.net/gbadoc/",
       },
       {
+        text: "TONC, the GBA tutorial",
+        link: "https://gbadev.net/tonc/",
+      },
+      {
         text: "Events",
         children: [
           // SidebarItem

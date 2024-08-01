@@ -17,7 +17,16 @@ export default {
           var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
           g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
         })();
-  `]],
+    `],
+    ["link", { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicons/favicon-32.png" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "128x128", href: "/favicons/favicon-128.png" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "180x180", href: "/favicons/favicon-180.png" }],
+    ["link", { rel: "icon", type: "image/png", sizes: "192x192", href: "/favicons/favicon-192.png" }],
+    ["meta", { property: "og:site_name", content: "gbadev.net" }],
+    ["meta", { name: "twitter:card", content: "summary" }],
+    ["meta", { name: "twitter:site", content: "@gbdev0" }],
+    ["meta", { name: "og:image", content: "https://gbadev.net/images/logo.png" }],
+  ],
   plugins: ["@vuepress/plugin-palette", { preset: "scss" }],
   theme: defaultTheme({
     logo: "/images/logo.png",

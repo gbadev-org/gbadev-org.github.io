@@ -4,6 +4,10 @@ title: Home
 heroImage: /images/logo.png
 heroHeight: 200
 tagline: GBA development community
+head:
+  - - meta
+    - name: og:description
+      content: Home of the modern Game Boy Advance homebrew development scene.
 actions:
   - text: Get started
     link: /getting-started

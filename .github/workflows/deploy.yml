@@ -35,12 +35,10 @@ jobs:
         cd ..
         cp -a repo/dist/. build/
         cd build
-        mv well-known .well-known
         mkdir -m 700 ~/.ssh
         echo "${{ secrets.SSH_KEY_SECRET }}" > ~/.ssh/id_ed25519
         chmod 0600 ~/.ssh/id_ed25519
         git config --local user.name "GitHub Action"
         git config --global user.email "community@gbdev.io"
         git add .
-        git add .well-known/*
         git commit -m "Update build" && git push || :

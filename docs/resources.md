@@ -57,9 +57,10 @@ A curated list of development resources for Game Boy Advance.
   `#gbajam`        - hang out with other GBA Jam participants & share your progress  
 
   **Project-specific channels**  
-  `#gba-toolchain` - gba-toolchain, agbabi and gba-plusplus development & support  
+  `#gba-toolchain` - gba-toolchain, agbabi, and gba-hpp development & support  
   `#butano`        - Butano engine development & support  
   `#natu`          - Natu toolkit development & support  
+  `#sdk-seven`     - sdk-seven development & support  
   </details>
   
 ### Other places
@@ -74,13 +75,13 @@ A curated list of development resources for Game Boy Advance.
 
 ## Tutorials
 
-- [Tonc](https://gbadev.net/tonc) - Complete programming tutorial
+- [Tonc](https://gbadev.net/tonc/) - The new, revamped but WIP version of the GBA Programming guide. The original version is [here](https://www.coranac.com/tonc/text/toc.htm)
 - [Compile C++ for GBA in under an hour](https://www.youtube.com/watch?v=EMeie_gSgDU) - Cinemint's video for getting started with C++/Butano
-- [Sound on the Gameboy Advance](https://deku.gbadev.org/program/sound1.html) - How to write your own sound mixer / MOD music player
+- [Sound on the Gameboy Advance](https://stuij.github.io/deku-sound-tutorial/) - How to write your own sound mixer / MOD music player
 
 ## Articles
 
-- [Gameboy Advance Resource Management](https://www.gamasutra.com/view/feature/131491/gameboy_advance_resource_management.php) - Allocation techniques for the GBA's various memory regions
+- [Gameboy Advance Resource Management](https://www.gamedeveloper.com/programming/gameboy-advance-resource-management) - Allocation techniques for the GBA's various memory regions
 - [Managing Sprite Cel VRAM on the Game Boy Advance](https://pineight.com/gba/managing-sprite-vram.txt) - Analysis of the VRAM streaming approach for animated sprites
 - [Using Beepbox for GBA Music Composition](https://rentry.org/beepbox-gba-music)
 
@@ -108,16 +109,16 @@ A curated list of development resources for Game Boy Advance.
 - [dusk](https://github.com/redthing1/dusk) - Simple, lightweight, intuitive framework for GBA game development
 - [gbsenpai](https://github.com/asiekierka/gbsenpai) - GB Studio player GBA port with some enhancements.
 - [meson-gba](https://github.com/LunarLambda/meson-gba) - Meson-based GBA toolkit with support for many different libraries and tools.
-- [sdk-seven](https://github.com/LunarLambda/sdk-seven) - (WIP) Modern C libraries, runtimes, and tooling for GBA development.
+- [sdk-seven](https://github.com/sdk-seven) - Modern runtime and tooling, and libraries for GBA development. Works with meson-gba or standalone.
 - [rath](https://github.com/stuij/rath) - Forth programming environment for the Game Boy Advance
 - [ada-gba-dev](https://github.com/98devin/ada-gba-dev) - A build system, libraries, and tools for producing programs for the Game Boy Advance using the Ada programming language.
 
 ## Libraries
 
 - [agbabi](https://github.com/felixjones/agbabi) - Drop-in application binary interface library (context switching, division, irq, memcpy, sine).
-- [gba-plusplus](https://github.com/felixjones/gba-plusplus) - Modern C++ alternative to libgba and libtonc.
+- [gba-hpp](https://github.com/felixjones/gba-hpp) - C++20 header-only library for GBA development.
 - [HeartLib](https://github.com/Sterophonick/HeartLib) - Comprehensive C library inspired by the classic HAMLib.
-- [libseven](https://github.com/LunarLambda/sdk-seven) - Modern, from-scratch replacement for libgba and libtonc.
+- [libseven](https://github.com/sdk-seven/libseven) - Modern, from-scratch replacement for libgba and libtonc.
 - [GBAdv](https://github.com/sverx/GBAdv) - High level utilities on top of libgba.
 - [Maxmod](https://maxmod.devkitpro.org) - Music and sound library (supports .mod, .xm, .s3m, .it)
 - [Apex Audio System](https://github.com/stuij/apex-audio-system) - Music and sound library (supports .mod only, but _very_ good performance)
@@ -128,6 +129,7 @@ A curated list of development resources for Game Boy Advance.
 - [GBFS](https://pineight.com/gba/#gbfs) - Practical filesystem
 - [agb](https://github.com/agbrs/agb) - Rust library. It attempts to be a high level abstraction over the internal workings of the Game Boy Advance whilst still being high performance and memory efficient.
 - [gbaLib](https://github.com/MnlPhlp/gbaLib) - Library for programming the GBA with TinyGo
+- [gba-link-connection](https://github.com/afska/gba-link-connection): A set of C++ libraries to interact with the Serial Port (Link Cable, Wireless Adapter, GPIO, SPI)
 
 ## Emulators
 
@@ -168,6 +170,7 @@ A curated list of development resources for Game Boy Advance.
 - [gba_bios](https://github.com/PikalaxALT/gba_bios) - WIP disassembly of the Game Boy Advance BIOS
 - [GBA bare metal code](https://github.com/PeterLemon/GBA) - Various experiments by Krom, such as video playback and 3D, written in ARM Assembly
 - [dkarm_gba_docker](https://github.com/redthing1/dkarm_gba_docker) - A Docker image that includes DevkitARM and other GBA SDK tools, packaged together to allow a consistent toolchain configuration and reproducibility in builds. Also can be helpful in ensuring a consistent build environment for continuous integration.
+- [Usenti](https://github.com/gb-archive/usenti) - Simple bitmap editor for paletted images aimed at GBA development.
 
 ## Dumping the GBA BIOS
 

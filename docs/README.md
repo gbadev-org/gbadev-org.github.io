@@ -12,9 +12,6 @@ actions:
   - text: Get started
     link: /getting-started
     type: primary
-  - text: Join the GBA Jam 2024!
-    link: https://itch.io/jam/gbajam24
-    type: secondary
   - text: Check resources
     link: /resources
     type: secondary

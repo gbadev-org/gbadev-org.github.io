@@ -4,6 +4,9 @@ head:
     - name: og:title
       content: GBA Jam 2024 Results
   - - meta
+    - name: twitter:card
+      content: summary_large_image
+  - - meta
     - name: og:image
       content: /images/jam24-card.png
 ---

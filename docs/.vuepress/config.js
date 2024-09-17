@@ -46,10 +46,7 @@ export default {
         text: "Events",
         children: [
           // SidebarItem
-          {
-            text: "GBA Jam 2024",
-            link: "https://itch.io/jam/gbajam24",
-          },
+          "/gbajam24.md",
           {
             text: "GBA Microjam 2023",
             link: "https://itch.io/jam/gba-microjam-23",

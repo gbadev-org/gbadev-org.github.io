@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-312833e4","path":"/gbajam24.html","title":"GBA Jam 2024","lang":"en-US","frontmatter":{"title":"GBA Jam 2024","image":"/images/jam24-card.png"},"headers":[],"git":{"updatedTime":1726608071000},"filePathRelative":"gbajam24.md"}');export{a as data};

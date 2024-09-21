@@ -13,6 +13,8 @@ head:
 
 # GBA Jam 2024
 
+![](/images/gbajam24_logo.png)
+
 The GBA Jam 2024 has come to an end! We are proud to say it was our most successful event yet, with a total of 52 (!!) final submitted entries.
 
 > The event was hosted by the the [gbadev.net](https://gbadev.net) community. We're promoting the development of new GBA homebrew games, development tools and documentation. Join us on [Discord](https://discord.io/gbadev) or [IRC](https://web.libera.chat/?join=#gbajam) and check out our [curated collection of gbadev resources](https://github.com/gbadev-org/awesome-gbadev).

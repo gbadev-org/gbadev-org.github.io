@@ -87,8 +87,8 @@ export default {
         link: "https://opencollective.com/gbadev",
       },
       {
-        text: "Discord",
-        link: "https://discord.gg/ctGSNxRkg2",
+        text: "Chat",
+        link: "/chat",
       },
       {
         text: "Forum",

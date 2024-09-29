@@ -36,33 +36,8 @@ A curated list of development resources for Game Boy Advance.
 ## Community
 
 - [GBAdev Forum](https://forum.gbadev.net) - Our new hub for announcements and long-form discussion. It's a good place to ask questions and share progress on your projects.
-- [GBAdev Discord](https://gbadev.net) - This is where everyone hangs out to chat nowadays. Come say hi!  
-  <details>
-  <summary><em>Info for IRC users</em></summary>
+- [GBAdev Discord / IRC](https://gbadev.net/chat.html) - This is where everyone hangs out to chat nowadays. Come say hi!
 
-  All rooms are bridged to IRC channels on [EFnet](http://www.efnet.org/?module=servers).
-
-  **Main channel**  
-  `#gbadev`        - general chat  
-
-  **Additional channels**  
-  `#gba-meta`      - community feedback/discussion  
-  `#gba-help`      - help & support  
-  `#gba-emudev`    - emulator development  
-  `#gba-asm`       - ARM/Thumb assembly and CPU architecture  
-  `#gba-showcase`  - share what you're working on!  
-  `#gba-music`     - listening, composing and audio programming  
-  `#gba-offtopic`  - off-topic chat  
-  `#gba-docs`      - community documentation projects (tutorials, technical docs etc.)  
-  `#gbajam`        - hang out with other GBA Jam participants & share your progress  
-
-  **Project-specific channels**  
-  `#gba-toolchain` - gba-toolchain, agbabi, and gba-hpp development & support  
-  `#butano`        - Butano engine development & support  
-  `#natu`          - Natu toolkit development & support  
-  `#sdk-seven`     - sdk-seven development & support  
-  </details>
-  
 ### Other places
 - [GBAdev.org](https://gbadev.org) - The longstanding homepage of the scene. Still updated with news and releases (but the forums have been broken for a while).
 - [GBAtemp](https://gbatemp.net/categories/nintendo-gba-discussions.32/) - The site carries the GBA name, but nowadays the console is relegated to the backbenches. It's a good place to talk about gaming and hardware though.
@@ -75,7 +50,7 @@ A curated list of development resources for Game Boy Advance.
 
 ## Tutorials
 
-- [Tonc](https://gbadev.net/tonc/) - The new, revamped but WIP version of the GBA Programming guide. The original version is [here](https://www.coranac.com/tonc/text/toc.htm)
+- [Tonc](https://gbadev.net/tonc/) - The new, revamped version of the GBA programming tutorial. The original version is [here](https://www.coranac.com/tonc/text/toc.htm).
 - [Compile C++ for GBA in under an hour](https://www.youtube.com/watch?v=EMeie_gSgDU) - Cinemint's video for getting started with C++/Butano
 - [Sound on the Gameboy Advance](https://stuij.github.io/deku-sound-tutorial/) - How to write your own sound mixer / MOD music player
 
@@ -164,6 +139,8 @@ A curated list of development resources for Game Boy Advance.
 - [GBA Winter Jam '21](https://itch.io/jam/gba-winter-jam-2021/entries)
 - [GBA Jam 2022](https://itch.io/jam/gbajam22/entries)
 - [GBA Winter Jam '23](https://itch.io/jam/gba-winter-jam-23)
+- [GBA Microjam '23](https://gbadev.itch.io/gba-microjam-23)
+- [GBA Jam 2024](https://itch.io/jam/gbajam24/entries)
 
 # Miscellanea
 

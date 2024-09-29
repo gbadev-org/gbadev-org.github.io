@@ -6,7 +6,7 @@ title: Resources
 
 A curated list of development resources for Game Boy Advance.
 
-## Table of Content
+## Table of Contents
 
 - [Introduction](#introduction)
   * [Community](#community)

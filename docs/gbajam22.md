@@ -31,14 +31,12 @@ Full detailed results for all 26 entries can be found at the [jam page on itch.i
   <a href="https://pyro-pyro.itch.io/a-rushed-hack-job"><b>A Rushed Hack Job</b></a> by Pyro_Pyro
 </li>
 <li value="7"> <a href="https://n67094.itch.io/gerbil-space-program">Gerbil Space Program</a> by Origamiscienceguy, n67094, Nikku4211 </li>
-<li value="8"> <a href="https://allalonegamez.itch.io/ravenia">Ravenia</a> by allalonegamez </li>
 <li value="9"> <a href="https://lsh0426.itch.io/chocolate-hunter-runa">Chocolate Hunter Runa</a> by Lsh0426 </li>
 <li value="10"> <a href="https://3dsage.itch.io/coin-fall">Coin Fall</a> by 3DSage </li>
 <li value="11"> <a href="https://setsquare.itch.io/lane">Lane</a> by setsquare </li>
 <li value="12"> <a href="https://foopod.itch.io/nuclear-love">Nuclear Love</a> by Jono Shields </li>
 <li value="13">
   <a href="https://notimplementedlife.itch.io/bugtris">BugTris</a> by NotImplementedLife <br>
-  <a href="https://allalonegamez.itch.io/jump-kid">Jump Kid</a> by allalonegamez <br>
   <a href="https://jroatch.itch.io/pocket-paint-gba">Pocket Paint</a> by jroatch
 </li>
 <li value="16"> <a href="https://kaleidosium.itch.io/hexes">HEXES</a> by EigenlightArts </li>
@@ -112,7 +110,6 @@ Full detailed results for all 26 entries can be found at the [jam page on itch.i
 <ol>
 <li value="1"> <a href="https://evanbowman.itch.io/hero-core-gba-port">Hero Core GBA port</a> by Evan Bowman  </li>
 <li value="2"> <a href="https://tengukaze.itch.io/green-memories-gba">Green Memories</a> by Tengukaze Studio </li>
-<li value="3"> <a href="https://allalonegamez.itch.io/ravenia">Ravenia</a> by allalonegamez </li>
 <li value="4"> <a href="https://pyro-pyro.itch.io/a-rushed-hack-job">A Rushed Hack Job</a> by Pyro_Pyro </li>
 <li value="5"> <a href="https://lsh0426.itch.io/chocolate-hunter-runa">Chocolate Hunter Runa</a> by Lsh0426 </li>
 </ol>

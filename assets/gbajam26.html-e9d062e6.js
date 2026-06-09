@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-2a54d168","path":"/gbajam26.html","title":"GBA Jam 2026","lang":"en-US","frontmatter":{"head":[["meta",{"name":"og:title","content":"GBA Jam 2026 competition"}]]},"headers":[],"git":{"updatedTime":1781033532000},"filePathRelative":"gbajam26.md"}');export{t as data};

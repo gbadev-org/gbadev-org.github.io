@@ -31,11 +31,6 @@ layout: Layout
 
 <div class="my-footer">
         Sponsors <br />
-        <a href="https://www.digitalocean.com/" target="_blank"
-          ><img
-            class="spons_logo"
-            src="/images/DO_Powered_by_Badge_blue.svg"
-        /></a>
         <a
           href="https://incube8games.com/"
           target="_blank"

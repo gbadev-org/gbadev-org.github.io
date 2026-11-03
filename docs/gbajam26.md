@@ -3,6 +3,12 @@ head:
   - - meta
     - name: og:title
       content: GBA Jam 2026 competition
+  - - meta
+    - name: twitter:card
+      content: summary_large_image
+  - - meta
+    - name: og:image
+      content: /images/jam26-card.png
 ---
 
 ![](/images/gbajam26_logo0.png)

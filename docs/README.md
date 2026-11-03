@@ -20,7 +20,7 @@ actions:
     type: secondary
 features:
   - title: Events
-    details: We periodically host ranked game jams and events to bring together the community, such as the GBA Jam 2021 and the GBA Jam 2022.
+    details: We periodically host ranked game jams and events to bring together the community, such as the [GBA Jam 2024](/gbajam24.html) and [GBA Jam 2026](/gbajam26.html).
     link: /resources
   - title: Documentation
     details: We maintain a curated collection of resources to get started with gba development and we're writing new tutorials and documentation.

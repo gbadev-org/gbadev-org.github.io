@@ -46,6 +46,7 @@ export default {
         text: "Events",
         children: [
           // SidebarItem
+          "/gbajam26.md",
           "/gbajam24.md",
           {
             text: "GBA Microjam 2023",

@@ -35,4 +35,7 @@ import ParentLayout from "@vuepress/theme-default/layouts/Layout.vue";
 .incube8 {
   filter: drop-shadow(0 0 0.4rem white);
 }
+strong {
+  font-weight: 1000;
+}
 </style>
